@@ -549,8 +549,8 @@ img {
   margin-top: var(--card-set-gap);
 }
 
-.card-thumb:hover .overlay,
-.card-thumb:focus .overlay {
+.card:hover .overlay,
+.card:focus .overlay {
   
     transform: translateY(0%);
 }
