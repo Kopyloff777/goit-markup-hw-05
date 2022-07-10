@@ -419,11 +419,6 @@ img {
   fill: #ffffff;
 }
 
-/*.team-social-list-icon:hover,
-.team-social-list-icon:focus {
-  fill: #ffffff;
-}
-
 /* ========= End Team ========= */
 
 /* ========= Start Clients ========= */
@@ -434,6 +429,8 @@ img {
 
 .clients-icon {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 93px;
   border: 1px solid #afb1b8;
@@ -447,7 +444,6 @@ img {
 
 .clients-icon-img {
   fill: #afb1b8;
-  padding: 16px 32px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -714,7 +710,11 @@ img {
   transform: translate(-50%, -50%);
   width: 528px;
   height: 580px;
+  padding: 40px;
   background-color: var(--primary-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 .modal-close-btn {
